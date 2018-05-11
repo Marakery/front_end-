@@ -1,0 +1,223 @@
+@media screen and (max-width: 1260px) 
+{
+    .title_serials, .serials_hiddend 
+    {
+        text-align: center;
+    }
+    .displayed 
+    {
+        width: 100%;
+        max-width: 990px;
+        margin: 2rem auto;
+    }
+    .column img 
+    {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    .column 
+    {
+      
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .column p,
+    .column h2 
+    {
+        max-width: 400px;
+        text-align: center;
+    }
+    .bar 
+    {
+        width: 97%;
+        max-width: 950px;
+    }
+
+}
+
+
+@media screen and (max-width: 965px) 
+{
+    .topnav a:not(:first-child) 
+    {
+        display: none;
+    }
+    .topnav a.icon 
+    {
+        float: left;
+        display: block;
+    }
+    .topnav a 
+    {
+        margin: 0;
+        width: 100%;
+
+    }
+    .menu_toggle i 
+    {
+        display: inline-block;
+    }
+    .topnav a:nth-child(1) 
+    {
+        display: inline-block;
+    }
+    .topnav 
+    {
+        width: 100%;
+        position: absolute;
+        background: rgba( 255, 255, 255, 0.91)
+    }
+    .topnav.responsive a 
+    {
+        float: none;
+        display: block;
+    }
+    .my_photo 
+    {
+        margin-top: -100px;
+    }
+    .scroll 
+    {
+        bottom: 25px;
+        right: 25px;
+        color: white;
+        padding: 20px;
+    }
+    .scroll span 
+    {
+        margin-left: -11px;
+        margin-top: -20px;
+        border: 12px solid transparent;
+        border-bottom-color: #ffffff;
+    }
+    .favorite_writers_films 
+    {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 690px;
+    }
+    .photo 
+    {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .writers 
+    {
+        float: left;
+        max-width: 250px;
+    }
+    .films 
+    {
+        margin: 0;
+        max-width: 250px;
+        width: 100%;
+        float: right;
+    }
+    .writers li,
+    .films li,
+    .favorite_writers,
+    .favorite_serials 
+    {
+        text-align: center;
+        list-style-type: none;
+    }
+    .side_bar 
+    {
+        max-width: 700px;
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .write:before,
+    .write:after 
+    {
+        display: none;
+    }
+    .write 
+    {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 315px;
+        padding: 30px;
+        text-align: center;
+    }
+    .write_me 
+    {
+        width: 90%;
+        height: auto;
+    }
+    .quote_one 
+    {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    .quote_one p 
+    {
+        margin: 0;
+        padding: 0;
+        color: black;
+        width: 90%;
+        text-align: center;
+    }
+
+    .main_content,
+    .quote,
+    .information,
+    .hobby 
+    {
+        max-width: 990px;
+        margin: 1rem auto;
+        width: 100%;
+    }
+    .hobby,
+    .quote 
+    {
+        margin: 0 auto;
+    }
+    .bar 
+    {
+        width: 96%;
+    }
+    .my_hobby 
+    {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 722px) 
+{
+
+    .little 
+    {
+        margin-bottom: 10px;
+    }
+ 
+    .writers 
+    {
+        margin-right: 5px;
+    }
+
+
+}
+
+@media screen and (max-width: 540px) 
+{
+    
+    .favorite_writers_films 
+    {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+    .films,
+    .writers 
+    {
+        float: none;
+    }
+}

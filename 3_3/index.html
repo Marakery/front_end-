@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Mark</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/media_adaptive.css" rel="stylesheet">
+    <link href="media/diamond.png" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <meta name="description" content="my page" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/fm.revealator.jquery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <button class="scroll" id="scroll" title="Go to top"><span></span></button>
+    <header>
+        <div class="container">
+            <div class="topnav" id="menu">
+                <a href="#" class="menu_toggle"><i class="fa fa-bars"></i></a>
+                <a href="#about"><i class="fa fa-user"></i><span class="about">Обо мне</span></a>
+                <a href="#hobby"><i class="fa fa-heart"></i><span>Мое хобби</span></a>
+                <a href="#favorite_serials"><i class="fa fa-video-camera"></i><span>Любимые сериалы</span></a>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    <div class="header_image"></div>
+
+    <section class="bar">
+        <div class="side_bar">
+            <div class="photo"><img src="media/one_photo.png" alt="Photo" class="my_photo"></div>
+            <div class="favorite_writers_films">
+                <div class="writers">
+                    <h2 class="favorite_writers">Любимые писатели</h2>
+                    <ul>
+                        <li>Рей Брэдбери</li>
+                        <li>Джордж Оруэлл</li>
+                        <li>Оскар Уайльд</li>
+                        <li>Харпер Ли</li>
+                    </ul>
+                </div>
+                <div class="films revealator-slideup revealator-once">
+                    <h2 class="favorite_serials">Любимые сериалы</h2>
+                    <ol>
+                        <li>Доктор Хаус</li>
+                        <li>Рик и Морти</li>
+                        <li>Во все тяжкие</li>
+                        <li>Мистер Робот</li>
+                    </ol>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="main_content">
+            <div class="quotes">
+                <div id="about" class="quote_one">
+                    <blockquote>
+                        <p>Я не буду думать об этом сегодня, я подумаю об этом завтра.</p>
+                    </blockquote>
+                    <p class="quote_name">— Маргарет Митчелл</p>
+                </div>
+            </div>
+            <div class="information">
+                <h2 class="name">Marcus</h2>
+                <div class="little"> <img src="media/little.png" alt="little" class="little"> </div>
+                <p class="quote">Так вот оно что! Значит, это участь всех людей: каждый человек для себя – один-единственный на свете. Один-единственный, сам по себе среди великого множества других людей, и всегда боится. Вот как сейчас. Ну закричишь, станешь звать на помощь – кому какое дело? Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2 id="hobby" class="my_hobby">Мое хобби</h2>
+                <div class="hobby revealator-slideup revealator-once">
+                    <p>Значит, это участь всех людей: каждый человек для себя – один-единственный на свете. Один-единственный, сам по себе среди великого множества других людей, и всегда боится. Вот как сейчас. Ну закричишь, станешь звать на помощь – кому какое дело?</p>
+                </div>
+                <div class="contact_me">
+                    <p class="telegram" id="write_me"><a href="#" class="my_telegram"><span class="link">Напиши мне</span> →</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="serials">
+        <div class="back">
+            <h2 id="favorite_serials" class="title_serials revealator-fadein revealator-slideup">Любимые сериалы</h2>
+            <div class="row">
+                <div class="displayed">
+                    <div class="column">
+                        <img class="revealator-fadein revealator-slideup" src="media/house.png" alt="Jane">
+                        <h2 class="revealator-fadein revealator-slideup">House</h2>
+                        <p class="revealator-fadein revealator-slideup">Доктор Хаус» - это культовый сериал, повествующий о не лёгких буднях команды американских врачей, каждый день борющихся со смертью. Концепция сериала очень схожа с детективными расследованиями. Но, в отличие от привычной для фильмов о сыщиках сюжетной линии, занимающейся раскрытием убийства, в данном случае молодые специалисты пытаются исследовать причины возникновения той или иной болезни у живого пациента.</p>
+                    </div>
+                    <div class="column">
+
+                        <img class="revealator-fadein revealator-slideup" src="media/rik_morty.png" alt="Mike">
+                        <h2 class="revealator-fadein revealator-slideup">Рик и Морти</h2>
+                        <p class="revealator-fadein revealator-slideup">Мультсериал Рик и Морти смотреть следует всем, кто устал от однотипных сюжетов и скучных персонажей, проповедующих любовь, добро и розовых пони. Эксцентричная парочка, которая регулярно находит приключения на свои пятые точки, докажет, что с приходом старости жизнь не заканчивается, а начинается все самое интересное. Эти двое перемещаются между мирами с помощью самодельного телепорта и путешествуют на летающей тарелке, собранной из хлама, завалявшегося в гараже.</p>
+
+                    </div>
+                    <div class="column">
+                        <img class="revealator-fadein revealator-slideup" src="media/lie.png" alt="John">
+                        <h2 class="revealator-fadein revealator-slideup">Обмани меня</h2>
+                        <p class="revealator-fadein revealator-slideup">У доктора Лайтмана есть абсолютная уверенность в том что мир полон лжецов всех мастей, где каждый норовит наврать с три короба всем на свете. А чтобы разоблачить эту ложь, ему хватит нескольких минут разговора с подозреваемым. Неправду может выдать каждый жест, всякое действие и даже какое-нибудь случайно, кем-нибудь невзначай оброненное слово.Надо только знать как это разглядеть. В основе этой «теории лжи» лежит предположение что любой обман обязательно чётко выступает на лице человека, он проявляется в мельчайших мимических деталях и эмоциональных реакциях. </p>
+
+                    </div>
+                    <div class="column">
+                        <img class="revealator-fadein revealator-slideup" src="media/robot.png" alt="Robot">
+                        <h2 class="revealator-fadein revealator-slideup">Мистер робот</h2>
+                        <p class="revealator-fadein revealator-slideup">Если обратиться к сюжету, то в его центре лежит история жизни программиста Эллиота. Он молод и у него столько планов на жизнь, что ему могут позавидовать все окружающие, какие не знакомы с парнем в реальности. Паренек не способен находить общий язык со своими одногодками, людьми старшего поколения и детьми. Диссоциальное расстройство - вот приговор, какой тяготит жизнь успешного компьютерного гения. Если бы не серьезное заболевание, парень мог бы рассчитывать на крутую заработную плату, престижную работу и многочисленные толпы поклонниц.</p>
+                    </div>
+                </div>
+                <div class="all_serials revealator-fadein revealator-slideup">
+                    <button id="hideAndShowButton" type="button"><span class="button_serials">Все сериалы</span></button>
+                </div>
+                <div class="serials_hiddend" id="serials_hiddend">
+                    <div class="column">
+                        <img src="media/house.png" alt="Jane">
+                        <h2>House</h2>
+                        <p>Доктор Хаус» - это культовый сериал, повествующий о не лёгких буднях команды американских врачей, каждый день борющихся со смертью. Концепция сериала очень схожа с детективными расследованиями. Но, в отличие от привычной для фильмов о сыщиках сюжетной линии, занимающейся раскрытием убийства, в данном случае молодые специалисты пытаются исследовать причины возникновения той или иной болезни у живого пациента.</p>
+                    </div>
+                    <div class="column">
+                        <img src="media/rik_morty.png" alt="Mike">
+                        <h2>Рик и Морти</h2>
+                        <p>Мультсериал Рик и Морти смотреть следует всем, кто устал от однотипных сюжетов и скучных персонажей, проповедующих любовь, добро и розовых пони. Эксцентричная парочка, которая регулярно находит приключения на свои пятые точки, докажет, что с приходом старости жизнь не заканчивается, а начинается все самое интересное. Эти двое перемещаются между мирами с помощью самодельного телепорта и путешествуют на летающей тарелке, собранной из хлама, завалявшегося в гараже.</p>
+                    </div>
+                    <div class="column">
+                        <img src="media/lie.png" alt="John">
+                        <h2>Обмани меня</h2>
+                        <p>У доктора Лайтмана есть абсолютная уверенность в том что мир полон лжецов всех мастей, где каждый норовит наврать с три короба всем на свете. А чтобы разоблачить эту ложь, ему хватит нескольких минут разговора с подозреваемым. Неправду может выдать каждый жест, всякое действие и даже какое-нибудь случайно, кем-нибудь невзначай оброненное слово.Надо только знать как это разглядеть. В основе этой «теории лжи» лежит предположение что любой обман обязательно чётко выступает на лице человека, он проявляется в мельчайших мимических деталях и эмоциональных реакциях. </p>
+                    </div>
+                    <div class="column">
+                        <img src="media/robot.png" alt="Robot">
+                        <h2>Мистер робот</h2>
+                        <p>Если обратиться к сюжету, то в его центре лежит история жизни программиста Эллиота. Он молод и у него столько планов на жизнь, что ему могут позавидовать все окружающие, какие не знакомы с парнем в реальности. Паренек не способен находить общий язык со своими одногодками, людьми старшего поколения и детьми. Диссоциальное расстройство - вот приговор, какой тяготит жизнь успешного компьютерного гения. Если бы не серьезное заболевание, парень мог бы рассчитывать на крутую заработную плату, престижную работу и многочисленные толпы поклонниц.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="write_me">
+        <div id="modal_form" class="container_form modal">
+
+            <form name="form" class="modal-content" id="modal_content"  method="post">
+                <span id="close" class="close">&times;</span>
+                <h1 class="write">Напиши мне</h1>
+
+                <label for="first_name">Ваше имя <span>*</span></label>
+                <input type="text" class="emptyFields" id="first_name" name="first_name" placeholder="Ваше имя..">
+                <label id="email" for="email">Ваш email <span class="star">*</span></label>
+                <input type="text"  id="email" name="email" placeholder="Ваш email..">
+                <label for="country">Откуда вы?</label>
+                <select id="country" name="country">
+                    <option value="Russia">Россия</option>
+                    <option value="Canada">Канада</option>
+                    <option value="USA">США</option>
+                </select>
+                <div class="your_male">
+                    <label>Ваш пол</label>
+                </div>
+                <div class="sex">
+                    <label class="label_male">
+                        <input type="radio" checked name="sex"/><span>Мужской</span></label>
+                    <label class="label_female">
+                        <input type="radio" name="sex"/><span>Женский</span></label>
+                </div>
+                <label for="subject" class="your_message">Ваше сообщение</label>
+                <textarea id="subject" name="subject" placeholder="Ваше сообщение.."></textarea>
+                <input type="submit" value="Отправить"> </form>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <footer>
+        <p class="copy_right">© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»</p>
+    </footer>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/navbar.js" async></script>
+    <script src="js/fm.revealator.jquery.js"></script>
+
+</body>
+
+</html>

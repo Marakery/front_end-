@@ -1,0 +1,476 @@
+header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 963px;
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.bar,
+.main_content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 963px;
+
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 4.3px 0;
+    transition: 0.5s;
+}
+
+
+
+
+.topnav i {
+    margin-right: 9px;
+}
+
+.topnav {
+
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Georgia';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 9px 16px 9px 23px;
+
+}
+
+.topnav a:hover {
+    background-color: #15a98c;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+
+.header_imgage {
+
+    max-width: 100%;
+    height: 400px;
+    background: url("../media/background.png") no-repeat;
+
+}
+
+.photo_and_quote {
+    margin-top: -191px;
+
+}
+
+.photo {
+    float: left;
+
+}
+
+.my_photo {
+    width: 100%;
+    max-width: 330px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+blockquote {
+    color: white;
+    font-family: 'Georgia';
+    font-size: 28px;
+    font-style: italic;
+    line-height: 1.44;
+}
+
+.quote_one {
+    margin-top: 26px;
+    float: left;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 65px;
+}
+
+.quote_name {
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 16px;
+}
+
+.writers {
+    margin-top: 41px;
+    width: 100%;
+    max-width: 330px;
+    color: #15a98c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.3px;
+}
+
+.writers ul,
+ol {
+
+    margin-top: 13px;
+    margin-left: 20px;
+    color: #555;
+    font-family: 'Georgia';
+    font-size: 18px;
+    line-height: 2;
+}
+
+.films {
+    margin-top: 40px;
+    width: 330px;
+    color: #15a98c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.3px;
+}
+
+
+
+.side_bar {
+    float: left;
+}
+
+.information {
+    float: left;
+    margin-left: 59px;
+    margin-top: -130px;
+}
+
+.name {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+.little {
+    margin-top: 10px;
+}
+
+
+.quote {
+    margin-top: 40px;
+    color: #555;
+    font-family: 'Georgia';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 100%;
+    max-width: 560px;
+}
+
+
+.my_hobby {
+    margin-top: 38px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hobby {
+    margin-top: 11px;
+    color: #555;
+    font-family: 'Georgia';
+    font-size: 19px;
+    line-height: 32px;
+    width: 100%;
+    max-width: 560px;
+}
+
+
+
+.my_telegram {
+    font-size: 19px;
+    color: #15a98c;
+    font-family: "Georgia";
+    text-decoration: none;
+}
+
+.link {
+    border-bottom: 1.4px solid #15a98c;
+    line-height: 36px;
+    font-family: "Georgia";
+}
+
+.contact_me {
+    margin-top: 40px;
+}
+
+.title_serials {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.back {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1205px;
+}
+
+.serials {
+    padding: 35px 0px 60px 0px;
+    background-color: #f1f1f1;
+    margin-top: 57px;
+}
+
+
+
+.column {
+    float: left;
+    margin-right: 20px;
+}
+
+.robot {
+    margin: 0;
+    float: left;
+}
+
+.row {
+    margin-top: 33px;
+}
+
+.row h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row p {
+    margin-top: 18px;
+    color: #555;
+    font-family: 'Georgia';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    max-width: 270px;
+}
+
+
+
+.row img {
+    background-color: #464646;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 285px;
+    height: 190px;
+}
+
+.all_serials {
+    text-align: center;
+    margin-top: 54px;
+    margin-right: 26px;
+}
+
+.button_serials {
+    padding: 14px 55px;
+    background-color: #15a98c;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_serials span {
+    color: whitesmoke;
+    font-family: 'Georgia';
+    font-size: 19px;
+}
+
+.button_serials:hover {
+    background-color: #098d72;
+}
+
+
+
+
+.write_me {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+}
+
+.write {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 260px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 42px;
+    margin-right: 155px;
+    margin-bottom: 66px;
+}
+
+
+.write:before,
+.write:after {
+    content: '';
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    background: #c4c4c4;
+    border: solid #FFF;
+    border-width: 0px 26px 6px 25px;
+}
+
+.write:before {
+    margin-left: -100%;
+}
+
+.write:after {
+    margin-right: -100%;
+}
+
+input[type=text],
+select,
+textarea {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 539px;
+    padding: 11px 12px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border: 2px solid #a6a6a6;
+    border-radius: 3px;
+    margin-bottom: 26px;
+}
+
+
+
+input[type=text]:hover,
+select:hover,
+textarea:hover {
+    border: 2px solid #15a98c;
+    outline-color: #15a98c;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: 'Georgia';
+    font-size: 19px;
+    background-color: #15a98c;
+    padding: 15px 63px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #098d72;
+}
+
+select {
+
+    -webkit-appearance: none;
+    background-image: url('../media/arrow_down.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none!important;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+
+
+.container_form p {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 7px;
+
+}
+
+
+
+.container_form span {
+    color: red;
+}
+
+.sex span {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 9px;
+
+}
+
+.your_male {
+    margin-top: 15px;
+}
+
+.label_female {
+    margin-left: 36px;
+}
+
+.your_message {
+    margin-top: 38px;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    padding: 23px;
+    background-color: #f9f9f9;
+
+}
+
+
+.copy_right {
+    text-align: center;
+    color: #555;
+    font-family: 'Georgia';
+
+}
+
+
+
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}

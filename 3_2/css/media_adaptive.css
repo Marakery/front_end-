@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child) {
+        display: none;
+
+    }
+    .topnav a.icon {
+        float: left;
+        display: block;
+        width: 100%;
+
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+    }
+
+    .write:before,
+    .write:after {
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .side_bar {
+        display: none;
+    }
+    .my_photo {
+        margin-left: 20px;
+        margin-top: -100px;
+        height: auto;
+    }
+
+    .quote_one,
+    .quote_one p {
+
+        margin: 0;
+        margin-left: 10px;
+        color: black;
+    }
+    .information {
+        margin: 0;
+        padding: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 992px) {}
+
+
+@media screen and (max-width: 480px) {}
+
+
+/*320 480 760 960 1200 1600*/

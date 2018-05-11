@@ -1,0 +1,644 @@
+header
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+div
+{
+    box-sizing: border-box;
+}
+
+.bar
+{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;  
+}
+
+.side_bar
+{
+    width: 100%;
+    max-width: 330px;
+}
+
+.main_content
+{
+    width: 100%;
+    max-width: 570px;
+}
+
+.information
+{
+    width: 100%;
+    max-width: 530px;
+    margin-top: 80px;
+}
+
+.topnav i
+{
+    margin-right: 8px;
+}
+
+.topnav a
+{
+    float: left;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    font-family: 'Georgia';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 10px 17px 9px 24px;
+}
+
+.topnav a:nth-child(1)
+{
+    display: none;    
+}
+
+.topnav a:hover
+{
+    background-color: #15a98c;
+    color: white;
+}
+
+.menu_toggle i
+{
+    display: none;
+    font-size: 26px;
+}
+
+.scroll
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #15a98c;
+    color: white;
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 4px;
+}
+
+.scroll span
+{
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -12px;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+
+.scroll:hover
+{
+    background-color: #a8a8a8;
+}
+
+.header_image
+{
+    max-width: 100%;
+    height: 400px;
+    background: url("../media/background.png") no-repeat;
+}
+
+.my_photo
+{
+    width: 100%;
+    max-width: 330px;
+    border-radius: 5px;
+}
+
+.quotes
+{
+    margin-top: 26px;
+    margin-left: 6px;
+    width: 100%;
+}
+
+blockquote
+{
+    color: white;
+    font-family: 'Georgia';
+    font-size: 28px;
+    font-style: italic;
+    line-height: 1.44;
+}
+
+.quote_name
+{
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 16px;
+}
+
+.writers h2,
+.films h2
+{
+    margin-top: 41px;
+    width: 100%;
+    max-width: 330px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #15a98c;
+    font-weight: 600;
+    line-height: 1.333;
+}
+
+.writers ul,
+ol 
+{
+    margin-top: 13px;
+    margin-left: 20px;
+    font-size: 19px;
+    font-family: "Georgia";
+    color: #555;
+    line-height: 1.895;
+}
+
+.films
+{
+    margin-top: 40px;
+    width: 330px;
+    color: #15a98c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.3px;
+}
+
+.bar
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    margin-top: -191px;
+}
+
+.name
+{
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+.little
+{
+    margin-top: 10px;
+}
+
+.quote
+{
+    margin-top: 40px;
+    color: #555;
+    font-family: 'Georgia';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.my_hobby
+{
+    margin-top: 38px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 200px;
+    width: 100%;
+}
+
+.hobby
+{
+    margin-top: 11px;
+    color: #555;
+    font-family: 'Georgia';
+    font-size: 19px;
+    line-height: 32px;
+    width: 100%;
+    max-width: 550px;
+}
+
+.my_telegram
+{
+    font-size: 19px;
+    color: #15a98c;
+    font-family: "Georgia";
+    text-decoration: none;
+}
+
+.link
+{
+    border-bottom: 1.4px solid #15a98c;
+    line-height: 36px;
+    font-family: "Georgia";
+}
+
+.contact_me
+{
+    margin-top: 40px;
+    margin-bottom: 56px;
+    width: 100%;
+    max-width: 140px;
+}
+
+.title_serials
+{
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.back
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.serials
+{
+    padding: 35px 0px 60px 0px;
+    background-color: #f9f9f9;
+}
+
+.displayed
+{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-content: stretch;
+    margin-top: 30px;
+    
+}
+
+.serials_hiddend
+{
+    opacity: 0;
+	height: 0;
+    overflow: hidden;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    width: 100%;
+    flex-flow: row wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-content: stretch;
+   
+}
+
+.column
+{
+    margin-right: 5px;
+}
+.serials_showmore_visible
+{
+	opacity: 1;
+	height: auto;
+	transition: opacity 3s;
+}
+
+
+.row
+{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.row h2
+{
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.row p
+{
+    margin-top: 18px;
+    color: #555;
+    font-family: 'Georgia';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    max-width: 270px;
+}
+
+.row img
+{
+    background-color: #464646;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 285px;
+    height: 190px;
+}
+
+.all_serials
+{
+    margin-top: 69px;
+    text-align: center;
+    margin-right: 21px;
+    margin-bottom: 13px;
+}
+.button_serials
+{
+    padding: 14px 54px;
+    background-color: #15a98c;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+
+}
+.all_serials span
+{
+    color: whitesmoke;
+    font-family: 'Georgia';
+    font-size: 19px;
+}
+
+.button_serials:hover
+{
+    background-color: #098d72;
+}
+
+.write_me
+{
+    margin: 0 auto;
+    max-width: 542px;
+    width: 100%;
+}
+
+.write
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+/*
+
+.write:before,
+.write:after
+{
+    content: '';
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    background: #c4c4c4;
+    border: solid #FFF;
+    border-width: 0px 26px 6px 25px;
+}
+
+.write:before
+{
+    margin-left: -100%;
+}
+
+.write:after
+{
+    margin-right: -100%;
+}
+*/
+
+
+
+
+
+
+
+.container_form input[type='submit'],
+select,
+textarea
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 540px;
+    padding: 11px 15px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+    margin-bottom: 26px;
+    margin-top: 6px;
+}
+
+.container_form input[type='text'],
+select,
+textarea
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 540px;
+    padding: 11px 15px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    border: 2px solid #c9c9c9;
+    border-radius: 3px;
+    margin-bottom: 26px;
+    margin-top: 6px;
+}
+
+.container_form input[type=text]:hover,
+select:hover,
+textarea:hover
+{
+    border: 2px solid  #a6a6a6 ;
+    outline-color: #a6a6a6 ;
+}
+
+.container_form input[type=text]:focus,
+select:focus,
+textarea:focus
+{
+    border: 2px solid #15a98c;
+    outline-color: #15a98c;
+}
+
+.container_form input[type=submit]
+{
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: 'Georgia';
+    font-size: 19px;
+    background-color: #15a98c;
+    padding: 15px 63px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select
+{
+    cursor: pointer;
+}
+
+.container_form input[type=submit]:hover
+{
+    background-color: #098d72;
+}
+
+select
+{
+    -webkit-appearance: none;
+    background-image: url('../media/arrow_down.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+textarea
+{
+    height: 150px;
+    resize: none;
+}
+
+.container_form label
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.container_form span
+{
+    color: red;
+}
+
+.sex span
+{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.your_male
+{
+    margin-top: 19px;
+    margin-bottom: 7px;
+}
+
+.label_female
+{
+    margin-left: 36px;
+}
+
+.your_message
+{
+    display: block;
+    margin-top: 38px;
+}
+.modal 
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
+    
+}
+
+@keyframes animatetop {
+    from 
+    {
+        top: -300px; 
+        opacity: 0
+    }
+    to 
+    {
+        top: 0; 
+        opacity: 1
+    }
+}
+/* Modal Content/Box */
+.modal-content {
+    
+    position: relative;
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px 20px 40px 20px;
+    
+    max-width: 600px;
+    border: 2px solid #888;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer
+{    
+    padding: 23px;
+    background-color: #f9f9f9;
+}
+
+.copy_right
+{
+    text-align: center;
+    color: #555;
+    font-family: 'Georgia';
+}
+
+.clearfix
+{
+    content: '';
+    clear: both;
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.container_form input.empty
+{
+    border: 2px solid #f12424;
+}
