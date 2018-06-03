@@ -1,6 +1,6 @@
 ## Flip tablet,  phone&desktop
 
-![](https://i.imgur.com/wqgXCuY.gifv)
+![](https://i.imgur.com/wqgXCuY.gif)
 
 
 
