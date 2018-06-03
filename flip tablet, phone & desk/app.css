@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-y: hidden;
+}
+
+.section {
+    background: #f2395a;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    perspective: 800px;
+}
+
+.heading {
+    margin-left: 70%;
+    text-align: center;
+}
+
+.phone,
+.tablet,
+.desktop {
+    background-color: #fff;
+    box-shadow: 13px 13px 32px 0 rgba(10, 57, 90, .3);
+    position: absolute;
+    transition: 1s;
+    transform: translateY(100%);
+    border-radius: 4px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:hover .phone,
+.section:hover .tablet,
+.section:hover .desktop {
+    transform: translateY(5%) rotateY(-10deg);
+    opacity: 1;
+}
+
+.phone {
+    width: 200px;
+    left: 5%;
+    background: #fff url(images/mobile.svg) center no-repeat;
+    z-index: 3;
+    transition-delay: 0.2s;
+}
+
+.tablet {
+    width: 360px;
+    background: #fff url(images/tablet.svg);
+    left: 10%;
+    z-index: 1;
+    transition-delay: 0.4s;
+}
+
+.desktop {
+    width: 680px;
+    background: #fff url(images/desktop.svg);
+    left: 15%;
+    transition-delay: 0.6s;
+}
+
+
+.section:hover .phone {
+    height: 280px;
+}
+
+.section:hover .tablet {
+    height: 380px;
+}
+
+.section:hover .desktop {
+    height: 480px;
+}
+
+
+
+@media screen and (max-width: 1120px) {
+
+    .heading {
+        display: none;
+    }
+
+    .phone {
+        width: 133px;
+        height: 186px;
+        background-size: 133px 186px;
+    }
+
+    .tablet {
+        width: 240px;
+        height: 253px;
+        background-size: 240px 253px;
+    }
+
+    .desktop {
+        width: 453px;
+        height: 320px;
+        background-size: 453px 320px;
+    }
+    
+    .section:hover .phone {
+         height: 186px;
+    }
+
+    .section:hover .tablet {
+        height: 253px;
+    }
+
+    .section:hover .desktop {
+        height: 320px;
+    }
+}
