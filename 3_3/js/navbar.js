@@ -1,4 +1,3 @@
-//adaptive menu
 var menu = document.getElementById('menu');
 menu.addEventListener('click', adaptiveMenu);
 
@@ -11,9 +10,6 @@ function adaptiveMenu() {
     }
 }
 
-
-
-//scroll to top
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
