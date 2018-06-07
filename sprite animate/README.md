@@ -1,4 +1,9 @@
 
-Walk Animationas (Pure css)
+## Walk Animationas (Pure css)
 
-https://codepen.io/marakery/pen/RJrWOp
+
+
+![](https://i.imgur.com/EQbf02y.gif)
+
+[Try it](https://codepen.io/marakery/pen/RJrWOp) 
+
