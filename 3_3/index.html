@@ -15,15 +15,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
+
 <body>
     <button class="scroll" id="scroll" title="Go to top"><span></span></button>
     <header>
         <div class="container">
             <div class="topnav" id="menu">
-                <a href="#" class="menu_toggle"><i class="fa fa-bars"></i></a>
-                <a href="#about"><i class="fa fa-user"></i><span class="about">Обо мне</span></a>
-                <a href="#hobby"><i class="fa fa-heart"></i><span>Мое хобби</span></a>
-                <a href="#favorite_serials"><i class="fa fa-video-camera"></i><span>Любимые сериалы</span></a>
+                <div class="menu_toggle"><a id="flip" href="#" class="menu_toggle"><i class="fa fa-bars"></i></a></div>
+
+                <div id="panel">
+                    <a href="#about"><i class="fa fa-user"></i><span class="about">Обо мне</span></a>
+                    <a href="#hobby"><i class="fa fa-heart"></i><span>Мое хобби</span></a>
+                    <a href="#favorite_serials"><i class="fa fa-video-camera"></i><span>Любимые сериалы</span></a>
+                </div>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -142,15 +146,15 @@
 
     <section class="write_me">
         <div id="modal_form" class="container_form modal">
-
-            <form name="form" class="modal-content" id="modal_content"  method="post">
+    
+            <form name="form" class="modal-content" id="modal_content" method="get">
                 <span id="close" class="close">&times;</span>
                 <h1 class="write">Напиши мне</h1>
 
                 <label for="first_name">Ваше имя <span>*</span></label>
-                <input type="text" class="emptyFields" id="first_name" name="first_name" placeholder="Ваше имя..">
-                <label id="email" for="email">Ваш email <span class="star">*</span></label>
-                <input type="text"  id="email" name="email" placeholder="Ваш email..">
+                <input type="text" class="empty_fields" id="name" name="name" placeholder="Ваше имя..">
+                <label id="emptyFields2" for="email">Ваш email <span class="star">*</span></label>
+                <input class="empty_fields2" type="text" id="email" name="email" placeholder="Ваш email..">
                 <label for="country">Откуда вы?</label>
                 <select id="country" name="country">
                     <option value="Russia">Россия</option>
@@ -168,16 +172,21 @@
                 </div>
                 <label for="subject" class="your_message">Ваше сообщение</label>
                 <textarea id="subject" name="subject" placeholder="Ваше сообщение.."></textarea>
-                <input type="submit" value="Отправить"> </form>
+                <input type="submit" id="submit" value="Отправить">
+            </form>
         </div>
         <div class="clearfix"></div>
+        <div class="overlay" id="overlay"></div>
     </section>
+  
     <footer>
         <p class="copy_right">© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»</p>
     </footer>
+
     <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/navbar.js" async></script>
+    <script src="js/app.js" async></script>
     <script src="js/fm.revealator.jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </body>
 

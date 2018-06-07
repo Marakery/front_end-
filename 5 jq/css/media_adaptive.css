@@ -49,10 +49,12 @@
     {
         display: none;
     }
-    .menu_toggle
+    #flip
     {
         display: inline-block;
         width: 100%;
+        float: left;
+        text-align: left;
     }
     .topnav a.icon 
     {

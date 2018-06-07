@@ -17,7 +17,7 @@ body {
 }
 
 .heading {
-    margin-left: 70%;
+    margin-left: 60%;
     text-align: center;
 }
 
@@ -78,13 +78,7 @@ body {
     height: 480px;
 }
 
-
-
-@media screen and (max-width: 1120px) {
-
-    .heading {
-        display: none;
-    }
+@media screen and (max-width: 1190px) {
 
     .phone {
         width: 133px;
@@ -103,9 +97,9 @@ body {
         height: 320px;
         background-size: 453px 320px;
     }
-    
+
     .section:hover .phone {
-         height: 186px;
+        height: 186px;
     }
 
     .section:hover .tablet {
@@ -114,5 +108,12 @@ body {
 
     .section:hover .desktop {
         height: 320px;
+    }
+}
+
+@media screen and (max-width: 871px) {
+
+    .heading {
+        display: none;
     }
 }
